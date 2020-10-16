@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FA0AB1DF89BA6B9DD4E82D4 /* Pods_2048GAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE2A68AA07A006024F024BC /* Pods_2048GAME.framework */; };
 		F06382342538372D00B8D5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382332538372D00B8D5EC /* AppDelegate.swift */; };
 		F06382362538372D00B8D5EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382352538372D00B8D5EC /* SceneDelegate.swift */; };
 		F06382382538372D00B8D5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382372538372D00B8D5EC /* ViewController.swift */; };
@@ -16,6 +17,14 @@
 		F06382432538373300B8D5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06382412538373300B8D5EC /* LaunchScreen.storyboard */; };
 		F063824E2538373300B8D5EC /* UITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063824D2538373300B8D5EC /* UITestTests.swift */; };
 		F06382592538373300B8D5EC /* UITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382582538373300B8D5EC /* UITestUITests.swift */; };
+		F063826C2538653100B8D5EC /* CheckerBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063826B2538653100B8D5EC /* CheckerBoardView.swift */; };
+		F063826E2538654700B8D5EC /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063826D2538654700B8D5EC /* PieceView.swift */; };
+		F063827125386A1900B8D5EC /* UIViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063827025386A1900B8D5EC /* UIViewController_Extension.swift */; };
+		F06382742538780400B8D5EC /* UIFont_Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382732538780400B8D5EC /* UIFont_Common.swift */; };
+		F06382762538781B00B8D5EC /* UIColor_Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382752538781B00B8D5EC /* UIColor_Common.swift */; };
+		F06382782538784100B8D5EC /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06382772538784100B8D5EC /* UIColor_Extension.swift */; };
+		F063827A25396CF400B8D5EC /* UIFont_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063827925396CF400B8D5EC /* UIFont_Extension.swift */; };
+		F063827C25397D3200B8D5EC /* ScorceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063827B25397D3200B8D5EC /* ScorceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F06382302538372D00B8D5EC /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE2A68AA07A006024F024BC /* Pods_2048GAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2048GAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FCCF8A6693D0A09763F5BC /* Pods-2048GAME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2048GAME.debug.xcconfig"; path = "Target Support Files/Pods-2048GAME/Pods-2048GAME.debug.xcconfig"; sourceTree = "<group>"; };
+		F06382302538372D00B8D5EC /* 2048GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048GAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06382332538372D00B8D5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06382352538372D00B8D5EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F06382372538372D00B8D5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,12 +56,21 @@
 		F063823F2538373300B8D5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06382422538373300B8D5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06382442538373300B8D5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F06382492538373300B8D5EC /* UITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06382492538373300B8D5EC /* 2048GAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048GAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F063824D2538373300B8D5EC /* UITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestTests.swift; sourceTree = "<group>"; };
 		F063824F2538373300B8D5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F06382542538373300B8D5EC /* UITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06382542538373300B8D5EC /* 2048GAME2048GAMEs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048GAME2048GAMEs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06382582538373300B8D5EC /* UITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestUITests.swift; sourceTree = "<group>"; };
 		F063825A2538373300B8D5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F063826B2538653100B8D5EC /* CheckerBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerBoardView.swift; sourceTree = "<group>"; };
+		F063826D2538654700B8D5EC /* PieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
+		F063827025386A1900B8D5EC /* UIViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extension.swift; sourceTree = "<group>"; };
+		F06382732538780400B8D5EC /* UIFont_Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont_Common.swift; sourceTree = "<group>"; };
+		F06382752538781B00B8D5EC /* UIColor_Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Common.swift; sourceTree = "<group>"; };
+		F06382772538784100B8D5EC /* UIColor_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
+		F063827925396CF400B8D5EC /* UIFont_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont_Extension.swift; sourceTree = "<group>"; };
+		F063827B25397D3200B8D5EC /* ScorceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorceView.swift; sourceTree = "<group>"; };
+		FCA824719F008D0AD1870F09 /* Pods-2048GAME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2048GAME.release.xcconfig"; path = "Target Support Files/Pods-2048GAME/Pods-2048GAME.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA0AB1DF89BA6B9DD4E82D4 /* Pods_2048GAME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,29 +99,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89F433FAC90346941181E873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2A68AA07A006024F024BC /* Pods_2048GAME.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6C60D0AAEF1CAC71829862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0FCCF8A6693D0A09763F5BC /* Pods-2048GAME.debug.xcconfig */,
+				FCA824719F008D0AD1870F09 /* Pods-2048GAME.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F06382272538372C00B8D5EC = {
 			isa = PBXGroup;
 			children = (
-				F06382322538372D00B8D5EC /* UITest */,
-				F063824C2538373300B8D5EC /* UITestTests */,
-				F06382572538373300B8D5EC /* UITestUITests */,
+				F06382322538372D00B8D5EC /* 2048GAME */,
+				F063824C2538373300B8D5EC /* 2048GAMETests */,
+				F06382572538373300B8D5EC /* 2048GAMEUITests */,
 				F06382312538372D00B8D5EC /* Products */,
+				CC6C60D0AAEF1CAC71829862 /* Pods */,
+				89F433FAC90346941181E873 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F06382312538372D00B8D5EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F06382302538372D00B8D5EC /* UITest.app */,
-				F06382492538373300B8D5EC /* UITestTests.xctest */,
-				F06382542538373300B8D5EC /* UITestUITests.xctest */,
+				F06382302538372D00B8D5EC /* 2048GAME.app */,
+				F06382492538373300B8D5EC /* 2048GAMETests.xctest */,
+				F06382542538373300B8D5EC /* 2048GAME2048GAMEs.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F06382322538372D00B8D5EC /* UITest */ = {
+		F06382322538372D00B8D5EC /* 2048GAME */ = {
 			isa = PBXGroup;
 			children = (
+				F0638272253877A600B8D5EC /* Constant */,
+				F063826F253869FC00B8D5EC /* Extension */,
+				F0638268253848F200B8D5EC /* View */,
 				F06382332538372D00B8D5EC /* AppDelegate.swift */,
 				F06382352538372D00B8D5EC /* SceneDelegate.swift */,
 				F06382372538372D00B8D5EC /* ViewController.swift */,
@@ -110,50 +154,81 @@
 				F06382442538373300B8D5EC /* Info.plist */,
 				F063823C2538372D00B8D5EC /* UITest.xcdatamodeld */,
 			);
-			path = UITest;
+			path = 2048GAME;
 			sourceTree = "<group>";
 		};
-		F063824C2538373300B8D5EC /* UITestTests */ = {
+		F063824C2538373300B8D5EC /* 2048GAMETests */ = {
 			isa = PBXGroup;
 			children = (
 				F063824D2538373300B8D5EC /* UITestTests.swift */,
 				F063824F2538373300B8D5EC /* Info.plist */,
 			);
-			path = UITestTests;
+			path = 2048GAMETests;
 			sourceTree = "<group>";
 		};
-		F06382572538373300B8D5EC /* UITestUITests */ = {
+		F06382572538373300B8D5EC /* 2048GAMEUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F06382582538373300B8D5EC /* UITestUITests.swift */,
 				F063825A2538373300B8D5EC /* Info.plist */,
 			);
-			path = UITestUITests;
+			path = 2048GAMEUITests;
+			sourceTree = "<group>";
+		};
+		F0638268253848F200B8D5EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F063826B2538653100B8D5EC /* CheckerBoardView.swift */,
+				F063826D2538654700B8D5EC /* PieceView.swift */,
+				F063827B25397D3200B8D5EC /* ScorceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F063826F253869FC00B8D5EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F063827025386A1900B8D5EC /* UIViewController_Extension.swift */,
+				F06382772538784100B8D5EC /* UIColor_Extension.swift */,
+				F063827925396CF400B8D5EC /* UIFont_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F0638272253877A600B8D5EC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				F06382732538780400B8D5EC /* UIFont_Common.swift */,
+				F06382752538781B00B8D5EC /* UIColor_Common.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F063822F2538372D00B8D5EC /* UITest */ = {
+		F063822F2538372D00B8D5EC /* 2048GAME */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F063825D2538373300B8D5EC /* Build configuration list for PBXNativeTarget "UITest" */;
+			buildConfigurationList = F063825D2538373300B8D5EC /* Build configuration list for PBXNativeTarget "2048GAME" */;
 			buildPhases = (
+				55C35C74BDC73782443B4D0D /* [CP] Check Pods Manifest.lock */,
 				F063822C2538372D00B8D5EC /* Sources */,
 				F063822D2538372D00B8D5EC /* Frameworks */,
 				F063822E2538372D00B8D5EC /* Resources */,
+				7D886AC4B9D5D0B02A3931A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UITest;
+			name = 2048GAME;
 			productName = UITest;
-			productReference = F06382302538372D00B8D5EC /* UITest.app */;
+			productReference = F06382302538372D00B8D5EC /* 2048GAME.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F06382482538373300B8D5EC /* UITestTests */ = {
+		F06382482538373300B8D5EC /* 2048GAMETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F06382602538373300B8D5EC /* Build configuration list for PBXNativeTarget "UITestTests" */;
+			buildConfigurationList = F06382602538373300B8D5EC /* Build configuration list for PBXNativeTarget "2048GAMETests" */;
 			buildPhases = (
 				F06382452538373300B8D5EC /* Sources */,
 				F06382462538373300B8D5EC /* Frameworks */,
@@ -164,14 +239,14 @@
 			dependencies = (
 				F063824B2538373300B8D5EC /* PBXTargetDependency */,
 			);
-			name = UITestTests;
+			name = 2048GAMETests;
 			productName = UITestTests;
-			productReference = F06382492538373300B8D5EC /* UITestTests.xctest */;
+			productReference = F06382492538373300B8D5EC /* 2048GAMETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F06382532538373300B8D5EC /* UITestUITests */ = {
+		F06382532538373300B8D5EC /* 2048GAME2048GAMEs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F06382632538373300B8D5EC /* Build configuration list for PBXNativeTarget "UITestUITests" */;
+			buildConfigurationList = F06382632538373300B8D5EC /* Build configuration list for PBXNativeTarget "2048GAME2048GAMEs" */;
 			buildPhases = (
 				F06382502538373300B8D5EC /* Sources */,
 				F06382512538373300B8D5EC /* Frameworks */,
@@ -182,9 +257,9 @@
 			dependencies = (
 				F06382562538373300B8D5EC /* PBXTargetDependency */,
 			);
-			name = UITestUITests;
+			name = 2048GAME2048GAMEs;
 			productName = UITestUITests;
-			productReference = F06382542538373300B8D5EC /* UITestUITests.xctest */;
+			productReference = F06382542538373300B8D5EC /* 2048GAME2048GAMEs.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F063822B2538372D00B8D5EC /* Build configuration list for PBXProject "UITest" */;
+			buildConfigurationList = F063822B2538372D00B8D5EC /* Build configuration list for PBXProject "2048GAME" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +298,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F063822F2538372D00B8D5EC /* UITest */,
-				F06382482538373300B8D5EC /* UITestTests */,
-				F06382532538373300B8D5EC /* UITestUITests */,
+				F063822F2538372D00B8D5EC /* 2048GAME */,
+				F06382482538373300B8D5EC /* 2048GAMETests */,
+				F06382532538373300B8D5EC /* 2048GAME2048GAMEs */,
 			);
 		};
 /* End PBXProject section */
@@ -257,15 +332,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55C35C74BDC73782443B4D0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2048GAME-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D886AC4B9D5D0B02A3931A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-2048GAME/Pods-2048GAME-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-2048GAME/Pods-2048GAME-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-2048GAME/Pods-2048GAME-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F063822C2538372D00B8D5EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F063826C2538653100B8D5EC /* CheckerBoardView.swift in Sources */,
 				F06382382538372D00B8D5EC /* ViewController.swift in Sources */,
 				F063823E2538372D00B8D5EC /* UITest.xcdatamodeld in Sources */,
+				F063827C25397D3200B8D5EC /* ScorceView.swift in Sources */,
+				F06382742538780400B8D5EC /* UIFont_Common.swift in Sources */,
+				F063826E2538654700B8D5EC /* PieceView.swift in Sources */,
+				F063827125386A1900B8D5EC /* UIViewController_Extension.swift in Sources */,
 				F06382342538372D00B8D5EC /* AppDelegate.swift in Sources */,
+				F06382762538781B00B8D5EC /* UIColor_Common.swift in Sources */,
 				F06382362538372D00B8D5EC /* SceneDelegate.swift in Sources */,
+				F063827A25396CF400B8D5EC /* UIFont_Extension.swift in Sources */,
+				F06382782538784100B8D5EC /* UIColor_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +415,12 @@
 /* Begin PBXTargetDependency section */
 		F063824B2538373300B8D5EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F063822F2538372D00B8D5EC /* UITest */;
+			target = F063822F2538372D00B8D5EC /* 2048GAME */;
 			targetProxy = F063824A2538373300B8D5EC /* PBXContainerItemProxy */;
 		};
 		F06382562538373300B8D5EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F063822F2538372D00B8D5EC /* UITest */;
+			target = F063822F2538372D00B8D5EC /* 2048GAME */;
 			targetProxy = F06382552538373300B8D5EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,6 +561,7 @@
 		};
 		F063825E2538373300B8D5EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FCCF8A6693D0A09763F5BC /* Pods-2048GAME.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,8 +572,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xuhaodong.UITest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = xuhaodong.2048GAME;
+				PRODUCT_NAME = 2048GAME;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +581,7 @@
 		};
 		F063825F2538373300B8D5EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA824719F008D0AD1870F09 /* Pods-2048GAME.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,8 +592,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xuhaodong.UITest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = xuhaodong.2048GAME;
+				PRODUCT_NAME = 2048GAME;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,7 +617,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITest.app/UITest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2048GAME.app/2048GAME";
 			};
 			name = Debug;
 		};
@@ -512,7 +639,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITest.app/UITest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2048GAME.app/2048GAME";
 			};
 			name = Release;
 		};
@@ -559,7 +686,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F063822B2538372D00B8D5EC /* Build configuration list for PBXProject "UITest" */ = {
+		F063822B2538372D00B8D5EC /* Build configuration list for PBXProject "2048GAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F063825B2538373300B8D5EC /* Debug */,
@@ -568,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F063825D2538373300B8D5EC /* Build configuration list for PBXNativeTarget "UITest" */ = {
+		F063825D2538373300B8D5EC /* Build configuration list for PBXNativeTarget "2048GAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F063825E2538373300B8D5EC /* Debug */,
@@ -577,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F06382602538373300B8D5EC /* Build configuration list for PBXNativeTarget "UITestTests" */ = {
+		F06382602538373300B8D5EC /* Build configuration list for PBXNativeTarget "2048GAMETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F06382612538373300B8D5EC /* Debug */,
@@ -586,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F06382632538373300B8D5EC /* Build configuration list for PBXNativeTarget "UITestUITests" */ = {
+		F06382632538373300B8D5EC /* Build configuration list for PBXNativeTarget "2048GAME2048GAMEs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F06382642538373300B8D5EC /* Debug */,
